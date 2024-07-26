@@ -1,0 +1,39 @@
+Scenario.nrofHostGroups = 4
+
+Group.router = QLearningRouter
+Group.nrofHosts = 500
+
+MovementModel.worldSize = 1500,1500
+btInterface.type = SimpleBroadcastInterface
+btInterface.transmitRange = 20
+
+Scenario.nrofHostGroups = 1
+# Message TTL of 300 minutes (5 hours)
+Group.msgTtl = 360
+Group.nrofInterfaces = 1
+Group.interface1 = btInterface
+Group.bufferSize = 20M
+Group.nrofHosts = 500
+Group.movementModel = CrowdMovement
+Group.speed = 0.8, 1.0
+Group.groupID = p
+
+Events.nrof = 1
+
+Events1.class = MessageEventGenerator
+Events1.hosts = 0,499
+Events1.interval = 299,300
+Events1.size = 500k
+Events1.prefix = M
+
+
+# how many reports to load
+Report.nrofReports = 2
+# length of the warm up period (simulated seconds)
+Report.warmup = 0
+# default directory of reports (can be overridden per Report with output setting)
+Report.reportDir = reports/
+# Report classes to load
+Report.report1 = MessageStatsReportAsli
+Report.report2 = InterestReport
+

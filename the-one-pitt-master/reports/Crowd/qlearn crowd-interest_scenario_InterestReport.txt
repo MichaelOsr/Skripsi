@@ -1,0 +1,25 @@
+Message stats for scenario crowd-interest_scenario
+sim_time: 43200.1000
+Total node : 500
+============
+Total Node per Interest : 
+0 : 496
+1 : 498
+2 : 496
+3 : 496
+4 : 498
+============
+Total Message Delivered per Interest : 
+0 : 48904
+1 : 47827
+2 : 47385
+3 : 47573
+4 : 47803
+============
+Success Rate per Interest : 
+0 : 0.9859677419354839
+1 : 0.9642540322580645
+2 : 0.9553427419354839
+3 : 0.959133064516129
+4 : 0.9637701612903226
+

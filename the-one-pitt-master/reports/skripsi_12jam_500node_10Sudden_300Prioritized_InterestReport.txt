@@ -1,0 +1,25 @@
+Message stats for scenario skripsi_12jam_500node_10Sudden_300Prioritized
+sim_time: 43200.1000
+Total node : 500
+============
+Total Node per Interest : 
+0 : 241
+1 : 261
+2 : 235
+3 : 280
+4 : 263
+============
+Total Message Delivered per Interest : 
+0 : 66453
+1 : 70996
+2 : 63687
+3 : 76132
+4 : 71269
+============
+Success Rate per Interest : 
+0 : 0.27573858921161826
+1 : 0.29458921161825724
+2 : 0.2642614107883817
+3 : 0.31590041493775933
+4 : 0.2957219917012448
+
